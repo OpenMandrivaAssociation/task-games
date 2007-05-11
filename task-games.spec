@@ -1,6 +1,6 @@
 %define name task-games
 %define version 0.1
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary: Task packages for games
 Name: %{name}
@@ -8,7 +8,7 @@ Version: %{version}
 Release: %{release}
 License: GPL
 Group: Development/Other
-Url: http://qa.mandriva.com/twiki/bin/view/Main/Games
+Url: http://wiki.mandriva.com/en/Docs/Games
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 Requires: armagetron
@@ -44,6 +44,7 @@ Requires: powermanga
 Requires: ppracer
 Requires: prboom
 Requires: ri-li
+Requires: scourge
 Requires: slune
 Requires: starfighter
 Requires: stepmania
@@ -66,5 +67,3 @@ Requires: xmoto
 This task package requires game packages selected by Mandriva.
 
 %files
-
-

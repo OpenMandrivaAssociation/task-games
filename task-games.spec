@@ -1,6 +1,6 @@
 %define name task-games
 %define version 0.1
-%define release %mkrel 3
+%define release %mkrel 4
 
 Summary: Task packages for games
 Name: %{name}
@@ -18,7 +18,6 @@ Requires: bos
 Requires: bzflag
 Requires: chromium
 Requires: crack-attack crack-attack-music crack-attack-sounds
-Requires: dangerdeep
 Requires: egoboo
 Requires: fillets-ng
 Requires: flightgear

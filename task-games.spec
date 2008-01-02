@@ -9,6 +9,7 @@ Release: %{release}
 License: GPL
 Group: Development/Other
 Url: http://wiki.mandriva.com/en/Docs/Games
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 Requires: armagetron
 Requires: blobby

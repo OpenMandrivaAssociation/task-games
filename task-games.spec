@@ -1,13 +1,13 @@
 %define name task-games
 %define version 0.1
-%define release %mkrel 4
+%define release %mkrel 5
 
 Summary: Task packages for games
 Name: %{name}
 Version: %{version}
 Release: %{release}
 License: GPL
-Group: Development/Other
+Group:   Games/Other
 Url: http://wiki.mandriva.com/en/Docs/Games
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch

@@ -1,6 +1,6 @@
 %define name task-games
 %define version 0.1
-%define release %mkrel 5
+%define release %mkrel 7
 
 Summary: Task packages for games
 Name: %{name}

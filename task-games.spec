@@ -1,6 +1,6 @@
 %define name task-games
 %define version 0.1
-%define release %mkrel 8
+%define release %mkrel 9
 
 Summary: Task packages for games
 Name: %{name}
@@ -11,58 +11,58 @@ Group:   Games/Other
 Url: http://wiki.mandriva.com/en/Docs/Games
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
-Requires: armagetron
-Requires: blobby
-Requires: bobobot
-Requires: bos
-Requires: bzflag
-Requires: chromium
-Requires: crack-attack crack-attack-music crack-attack-sounds
-Requires: egoboo
-Requires: fillets-ng
-Requires: flightgear
-Requires: freeciv-client
-Requires: frozen-bubble
-Requires: foobillard
-Requires: gcompris
-Requires: gcompris-sounds-da gcompris-sounds-de gcompris-sounds-en gcompris-sounds-es gcompris-sounds-eu
-Requires: gcompris-sounds-fi gcompris-sounds-fr gcompris-sounds-hu gcompris-sounds-it
-Requires: gcompris-sounds-nl gcompris-sounds-pt gcompris-sounds-ru gcompris-sounds-sv
-Requires: gl-117
-Requires: glest
-Requires: globulation2
-Requires: gtetrinet
-Requires: lincity-ng
-Requires: maniadrive
-Requires: netpanzer
-Requires: neverball
-Requires: nexuiz-sdl
-Requires: openarena
-Requires: openmortal
-Requires: powermanga
-Requires: ppracer
-Requires: prboom
-Requires: ri-li
-Requires: scourge
-Requires: slune
-Requires: starfighter
-Requires: stepmania
-Requires: stepmania-stepmix1
-Requires: supertux
-Requires: supertuxkart
-Requires: toppler
-Requires: torcs
-Requires: tremulous tremulous-maps
-Requires: tuxpuck
-Requires: vegastrike
-Requires: vdrift
-Requires: warzone2100
-Requires: wesnoth
-Requires: widelands
-Requires: wormux
-Requires: xmoto
+Suggests: armagetron
+Suggests: blobby
+Suggests: bobobot
+Suggests: bos
+Suggests: bzflag
+Suggests: chromium
+Suggests: crack-attack crack-attack-music crack-attack-sounds
+Suggests: egoboo
+Suggests: fillets-ng
+Suggests: flightgear
+Suggests: freeciv-client
+Suggests: frozen-bubble
+Suggests: foobillard
+Suggests: gcompris
+Suggests: gcompris-sounds-da gcompris-sounds-de gcompris-sounds-en gcompris-sounds-es gcompris-sounds-eu
+Suggests: gcompris-sounds-fi gcompris-sounds-fr gcompris-sounds-hu gcompris-sounds-it
+Suggests: gcompris-sounds-nl gcompris-sounds-pt gcompris-sounds-ru gcompris-sounds-sv
+Suggests: gl-117
+Suggests: glest
+Suggests: globulation2
+Suggests: gtetrinet
+Suggests: lincity-ng
+Suggests: maniadrive
+Suggests: netpanzer
+Suggests: neverball
+Suggests: nexuiz-sdl
+Suggests: openarena
+Suggests: openmortal
+Suggests: powermanga
+Suggests: ppracer
+Suggests: prboom
+Suggests: ri-li
+Suggests: scourge
+Suggests: slune
+Suggests: starfighter
+Suggests: stepmania
+Suggests: stepmania-stepmix1
+Suggests: supertux
+Suggests: supertuxkart
+Suggests: toppler
+Suggests: torcs
+Suggests: tremulous tremulous-maps
+Suggests: tuxpuck
+Suggests: vegastrike
+Suggests: vdrift
+Suggests: warzone2100
+Suggests: wesnoth
+Suggests: widelands
+Suggests: wormux
+Suggests: xmoto
 
 %description
-This task package requires game packages selected by Mandriva.
+This task package Suggests game packages selected by Mandriva.
 
 %files

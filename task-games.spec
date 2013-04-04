@@ -1,7 +1,3 @@
-%define name task-games
-%define version 0.1
-%define release %mkrel 10
-
 Summary:	Task packages for games
 Name:		task-games
 Version:	0.1

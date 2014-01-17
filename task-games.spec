@@ -1,7 +1,7 @@
 Summary:	Task packages for games
 Name:		task-games
-Version:	0.1
-Release:	11
+Version:	%distro_release
+Release:	1
 License:	GPL
 Group:		Games/Other
 Url:		http://wiki.mandriva.com/en/Docs/Games
@@ -63,50 +63,4 @@ Suggests:	xmoto
 This task package Suggests game packages selected by Mandriva.
 
 %files
-
-
-%changelog
-* Sun Sep 20 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.1-10mdv2010.0
-+ Revision: 445355
-- rebuild
-
-* Tue Feb 24 2009 Emmanuel Andry <eandry@mandriva.org> 0.1-9mdv2009.1
-+ Revision: 344468
-- use Suggests instead of Requires
-
-* Sat Aug 02 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.1-8mdv2009.0
-+ Revision: 261379
-- rebuild
-
-* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.1-7mdv2009.0
-+ Revision: 254149
-- rebuild
-
-* Wed Feb 27 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.1-5mdv2008.1
-+ Revision: 175774
-- fix group
-- kill re-definition of %%buildroot on Pixel's request
-
-  + Olivier Blin <oblin@mandriva.com>
-    - restore BuildRoot
-
-* Fri Jul 13 2007 Olivier Blin <oblin@mandriva.com> 0.1-4mdv2008.0
-+ Revision: 51830
-- remove dangerdeep, it is not in contrib anymore
-
-* Fri May 11 2007 Tomasz Pawel Gajc <tpg@mandriva.org> 0.1-3mdv2008.0
-+ Revision: 26207
-- update url
-- requires scourge
-
-
-* Sat Jan 06 2007 Olivier Blin <oblin@mandriva.com> 0.1-2mdv2007.0
-+ Revision: 104674
-- require tuxpuck
-- add bos
-
-* Thu Dec 14 2006 Olivier Blin <oblin@mandriva.com> 0.1-1mdv2007.1
-+ Revision: 97025
-- initial task-games package (based on One gaming config)
-- Create task-games
 

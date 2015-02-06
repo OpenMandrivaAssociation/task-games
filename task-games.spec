@@ -1,7 +1,7 @@
 Summary:	Task packages for games
 Name:		task-games
 Version:	%distro_release
-Release:	1
+Release:	2
 License:	GPL
 Group:		Games/Other
 Url:		http://wiki.mandriva.com/en/Docs/Games

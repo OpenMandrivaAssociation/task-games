@@ -4,7 +4,7 @@ Version:	%distro_release
 Release:	2
 License:	GPL
 Group:		Games/Other
-Url:		http://wiki.mandriva.com/en/Docs/Games
+Url:		https://wiki.mandriva.com/en/Docs/Games
 BuildArch:	noarch
 Suggests:	armagetron
 Suggests:	blobby
